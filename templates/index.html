@@ -1,0 +1,47 @@
+
+
+{% extends 'base.html' %}
+
+
+{% block body%}
+
+<div class="main-continer"> 
+
+    <center>  
+        <img src="{{ url_for('static', filename='image/alogo.png')}}" width="7%" height="7%"><br>
+        <span class="t1"> Astu  <span class="t2">E-student</span></span>
+    </center>
+    <br>
+
+    <center>
+        <div class="card-box">
+            <center><p id="main-t">For Student Only</center>
+                <form action="/" method="POST">
+                    <input type="text" name="name" id='name' placeholder="Username"><br><br>
+                    <input type="password" name="password" placeholder="Password"><br><br>
+                    <button class='btn' type="submit">Sign Up</button>
+                </form>
+                    <div id="">
+                <p class="forget-p">Forget Password ?</p>
+                </div>
+            
+        </div>
+    </center>
+
+</div>
+
+<br>
+<br>
+<br><br>
+<br>
+<br>
+<br>
+<br><br>
+<br>
+<br><br>
+
+
+
+<div class="foot"><p>Copyright 2021 <span class='win-link' >Winner Systems</span>.All rights resrved</p><p style="font-weight:bold;">Version 3.0</p> </div>
+{% endblock %}
+

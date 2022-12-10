@@ -1,0 +1,228 @@
+body{
+    margin:0px;
+    background-color: #e9ecef;
+   
+}
+.t1,t2{
+    font-size: 4.7vmin;
+    color: #444;
+}
+.t1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:normal;
+}
+.t2{
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+.main-continer{
+    padding: 5%;
+ 
+}
+.card-box{
+    display: flex;
+    flex-direction: column;
+    justify-content:  center;
+    background-color: white;
+    width: 35%;
+    padding: 1%;
+    height:270px;
+    text-align: center;
+    box-shadow: 1px 1px 2px 1px #d4d4d4;
+   
+}
+#main-t{
+   
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:normal;
+    font-size: 2.5vmin;
+    color:#666;
+
+
+}
+input{
+    width: 98%;
+    border:solid 1px rgb(202, 202, 202);
+   
+    height: 36px;
+    
+    border-radius: 3px;
+  
+}
+
+input:hover{
+    border-color: #77b9ff;
+}
+
+input::placeholder { 
+    padding-left: 11px;
+    font-size: 2.5vmin;
+    color: rgb(171, 171, 171);  
+}
+
+.btn{
+    height: 35px auto;
+    width: 20% auto;
+    border: none;
+    padding: 11px 26px;
+    color: white;
+    background-color: #007bff;
+    border-radius: 5px;
+    float: left;
+    font-size: 2.4vmin;
+}
+.btn:hover{
+    background-color: #016bdc;
+    transition-duration: 0.5s;
+}
+.win-link{
+    color:#007bff;
+   
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:normal;
+    font-size: 2.3vmin;
+
+}
+.forget-p{
+    color:#007bff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:normal;
+    font-size: 2.3vmin;
+    float: left;
+}
+.forget-p:hover{
+    color: #015aba;
+    transition-duration: 0.5s;
+}
+
+.foot{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    background-color: white;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:normal;
+    font-size: 2.1vmin;
+    color:#666;
+    height:45px;
+    text-align: center;
+    box-shadow: 1px 1px 2px 1px #d4d4d4;
+}
+.foot p{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+}
+.data_q{
+
+    background-color: #016bdc;
+    border-radius: 10px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:normal;
+    font-size: 2.36vmin;
+    width:50%;
+    height:39px;
+    padding: 8px 24px;
+
+
+}
+
+.data-continer{
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    text-align: left;
+    
+    justify-content:space-between;
+}
+
+.rm{
+    text-decoration: none;
+    background-color: white;
+    color: #333;
+    padding:10px 22px;
+    border-radius: 6px;
+    float:right;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.rm:hover{
+
+    background-color: rgb(233, 81, 81);
+    color:white;
+    transition-duration: 0.7s;
+}
+.ad{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(80, 78, 78);
+    font-size: 5vmin;
+}
+
+@media only screen and (max-width: 880px){
+
+    .card-box{
+        display: flex;
+        flex-direction: column;
+        justify-content:  center;
+        background-color: white;
+        width: 55%;
+        padding: 1%;
+        height:270px;
+        text-align: center;
+        box-shadow: 1px 1px 2px 1px #d4d4d4;
+       
+    }
+}
+@media only screen and (max-width: 580px){
+
+    .card-box{
+        display: flex;
+        flex-direction: column;
+        justify-content:  center;
+        background-color: rgb(255, 255, 255);
+        width: 94%;
+        /* padding-left: 6%;
+        padding-left: 6%; */
+        height:230px;
+        text-align: center;
+        box-shadow: 1px 1px 2px 1px #d4d4d4;
+       
+    }
+    input::placeholder { 
+        padding-left: 11px;
+        font-size: 3vmin;
+        
+    }
+    .forget-p{
+        font-size: 3.1vmin;
+    }
+    .btn{
+        padding: 12px 26px;
+        width: 27%;
+        font-size: 2.7vmin;
+    }
+    .foot{
+        font-size: 2.6vmin;
+    }
+    img{
+        width: 21.5%;
+        height: 21.5%;
+    }
+    .t1,t2{
+        font-size: 7vmin;
+        color: #444;
+    }
+    .main-continer{
+        margin-top: 38%;
+        padding: 0;
+        
+    }
+    #main-t{
+        
+        font-size: 3.5vmin;
+      color: rgb(185, 185, 185);   
+    }
+
+}

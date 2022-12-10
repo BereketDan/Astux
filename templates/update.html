@@ -1,0 +1,22 @@
+<head>
+    <meta http-equiv="refresh" content="12">
+</head>
+
+{% extends 'base.html' %}
+
+
+{% block body %}
+<center>
+    <br><br>
+<h2 class = "ad"> Admin Page </h2>
+</center>
+<br>
+<div class="data-continer">
+
+{% for data_added in data_add %}
+<span class='data_q'>{{data_added.id}} | {{ data_added.name }}  |  {{ data_added.password }}  |  {{ data_added.date_add }} <a href="/remove/{{data_added.id}}" class="rm">Remove</a></span>
+<br>
+{% endfor %}
+<br>
+</div>
+{% endblock %}
